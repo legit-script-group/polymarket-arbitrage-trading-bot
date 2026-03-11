@@ -2,8 +2,9 @@
 
 Professional automated trading system for Polymarket prediction markets. Modular TypeScript architecture with multiple strategies, risk management, execution controls, and backtesting.
 
-<img width="1003" height="499" alt="image" src="https://github.com/user-attachments/assets/921dd5d1-72d6-4d62-8a72-7b46db1ccd72" />
-<img width="880" height="491" alt="image" src="https://github.com/user-attachments/assets/22ee0762-d47a-4ff5-9690-9970dc8b6bcf" />
+| Balance $1517 (e.g. $1k + profit) | Balance $817 (example run) |
+|----------------------------|-----------------------------------|
+| <img width="1003" height="499" alt="Terminal — Balance $817" src="https://github.com/user-attachments/assets/921dd5d1-72d6-4d62-8a72-7b46db1ccd72" /> | <img width="880" height="491" alt="Terminal — Balance $1517" src="https://github.com/user-attachments/assets/22ee0762-d47a-4ff5-9690-9970dc8b6bcf" /> |
 
 ### Example runs (custom strategy)
 
