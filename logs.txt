@@ -13367,3 +13367,47 @@
   [2026-03-17 07:07:51] t=171s  Up=0.27 Down=0.71  |  Balance: $100.00  |  Entry window passed, no position
   [2026-03-17 07:08:22] t=202s  Up=0.40 Down=0.59  |  Balance: $100.00  |  Entry window passed, no position
   [2026-03-17 07:08:53] t=233s  Up=0.59 Down=0.39  |  Balance: $100.00  |  Entry window passed, no position
+  [2026-03-17 07:09:23] t=263s  Up=0.58 Down=0.41  |  Balance: $100.00  |  Entry window passed, no position
+  [2026-03-17 07:10:00] New 5m window started. Balance: $100.00
+  [2026-03-17 07:10:00] t=0s  Up=0.48 Down=0.51  |  Balance: $100.00  |  Entry window in 25s
+  [2026-03-17 07:10:25] t=25s  Up=0.76  Down=0.23
+  [ENTRY]  BUY Down @ 0.23  |  $10  |  Balance: $90.00
+
+  [2026-03-17 07:10:31] t=31s  Up=0.75 Down=0.24  |  Balance: $90.00  |  Holding Down, exit after t=47s + 3s hold
+  [2026-03-17 07:10:48] t=48s  Up=0.79  Down=0.19
+  [EXIT]   SELL Down @ 0.21 (bid 0.21 - 0.5% slip)  |  P/L: $-1.11 (fee -$0.19)  |  Balance: $98.89 (start $100.00 + net P/L $-1.11)
+  ---  Total balance: $98.89  |  Trades: 1  |  Net P/L: $-1.11  ---
+
+  [2026-03-17 07:10:50] t=50s  Up=0.84  Down=0.15
+  [ENTRY]  BUY Down @ 0.15  |  $10  |  Balance: $88.89
+
+  [2026-03-17 07:10:54] t=54s  Up=0.85  Down=0.14
+  [EXIT]   SELL Down @ 0.15 (bid 0.15 - 0.5% slip)  |  P/L: $-0.25 (fee -$0.20)  |  Balance: $98.64 (start $100.00 + net P/L $-1.36)
+  ---  Total balance: $98.64  |  Trades: 2  |  Net P/L: $-1.36  ---
+
+  [2026-03-17 07:10:56] t=56s  Up=0.85  Down=0.14
+  [ENTRY]  BUY Down @ 0.14  |  $10  |  Balance: $88.64
+
+  [2026-03-17 07:11:00] t=60s  Up=0.85  Down=0.14
+  [EXIT]   SELL Down @ 0.15 (bid 0.15 - 0.5% slip)  |  P/L: +$0.45 (fee -$0.21)  |  Balance: $99.10 (start $100.00 + net P/L $-0.90)
+  ---  Total balance: $99.10  |  Trades: 3  |  Net P/L: $-0.90  ---
+
+  [2026-03-17 07:11:02] t=62s  Up=0.87 Down=0.12  |  Balance: $99.10  |  Waiting for entry price
+  [2026-03-17 07:11:33] t=93s  Up=0.90 Down=0.09  |  Balance: $99.10  |  Entry window passed, no position
+  [2026-03-17 07:12:04] t=124s  Up=0.93 Down=0.04  |  Balance: $99.10  |  Entry window passed, no position
+  [INFO] Using default start balance $100. Set POLYMARKET_PRIVATE_KEY in .env to use wallet balance.
+--- New-member strategy (5m BTC Up/Down) ---
+  Started at: 2026-03-17 07:12:20  |  BET_USD=10  START_BALANCE=$100.00
+  Starting balance: $100.00  (each trade: $10; fee: 1%)
+  Entry: time 25-71s, price 0.14-0.26
+  Exit:  time 47-267s (min 3s hold). Sell: limit-style (defer if bid < 85% entry); max 5 retries then force exit; force exit by t=265s.
+  Logging to logs.txt. Press Ctrl+C to stop and see final result.
+------------------------------------------
+
+  [2026-03-17 07:12:20] New 5m window started. Balance: $100.00
+
+==========================================
+  [2026-03-17 07:12:35] t=155s  Up=0.95 Down=0.04  |  Balance: $99.10  |  Entry window passed, no position
+  [2026-03-17 07:13:06] t=186s  Up=0.95 Down=0.04  |  Balance: $99.10  |  Entry window passed, no position
+  [2026-03-17 07:13:37] t=217s  Up=0.97 Down=0.02  |  Balance: $99.10  |  Entry window passed, no position
+  [2026-03-17 07:14:08] t=248s  Up=0.99 Down=0.00  |  Balance: $99.10  |  Entry window passed, no position

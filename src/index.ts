@@ -11,6 +11,15 @@ import { createWriteStream } from "fs";
 import { ClobClient, AssetType } from "@polymarket/clob-client";
 import { Wallet } from "ethers";
 
+/** Check env from .env file. Exits if POLYMARKET_PRIVATE_KEY is not set. */
+function checkEnvConfig(): void {
+  const pk = process.env.POLYMARKET_PRIVATE_KEY?.trim();
+  if (!pk || !pk.startsWith("0x")) {
+    console.error("POLYMARKET_PRIVATE_KEY is required. Set it in your .env file and try again.");
+    process.exit(1);
+  }
+}
+
 const LOG_FILE = "logs.txt";
 const CLOB_HOST = "https://clob.polymarket.com";
 const CHAIN_ID = 137;
@@ -406,6 +415,7 @@ async function main() {
   }
 }
 
+checkEnvConfig();
 main().catch((e) => {
   console.error(e);
   process.exit(1);
