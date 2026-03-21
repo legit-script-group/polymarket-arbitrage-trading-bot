@@ -1,6 +1,6 @@
-# Polymarket Trading Bot
+# Polymarket Arbitrage Bot
 
-TypeScript bot for Polymarket 5-minute BTC Up/Down markets using the new-member strategy (time + price bands). Uses live Polymarket prices for entry/exit. Logs to console and logs.txt. No wallet or API keys required (read-only price/market APIs).
+TypeScript bot for Polymarket 5-minute BTC Up/Down markets using the new-member strategy (time + price bands), we get arbitrage positions here. Uses live Polymarket prices for entry/exit. Logs to console and logs.txt. No wallet or API keys required (read-only price/market APIs).
 
 ### Example runs (custom strategy)
 
